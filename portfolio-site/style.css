@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(26, 32, 29);
+    font-family: "Jetbrains Mono", monospace;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header {
+    max-height: 10%;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-right: -50%;
+    gap: 10px;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li :hover {
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+}
+
+.home-text {
+    display: flexbox;
+    max-width: 50%;
+    align-items: center;
+    gap: 10px;
+}
+
+.home-text h1 {
+    text-align: left;
+    display: flex;
+    max-width: 100%;
+    font-weight: bold;
+    font-size: 500%;
+}
+
+.home-text p {
+    text-align: left;
+    display: flex;
+    max-width: 50%;
+}
+
+.home img {
+    text-align: right;
+}
+
+.home {
+    display: flex;
+    margin-right: -10%
+}
